@@ -1,4 +1,18 @@
 # my-agent-one
+Temporary Fix (for the current terminal session)
+This is the fastest way to get your script running. The environment variable will only be set for the duration of the current terminal session. If you close the terminal or open a new one, you'll have to set it again.
+
+Open your terminal.
+
+Set the environment variable.
+
+
+export GOOGLE_API_KEY="YOUR_API_KEY_HERE"
+
+Note: Replace YOUR_API_KEY_HERE with your actual Gemini API key. Make sure there are no spaces around the equals sign (=).
+
+
+
 The output "Hello! I am doing well, thank you for asking. How are you today?" confirms that:
 
 Your main.py script was able to import the config object from connection.py.
